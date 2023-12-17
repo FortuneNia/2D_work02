@@ -21,7 +21,7 @@ public class ChangesceneWithoutField : MonoBehaviour
     }
     public void Change()
     {
-        if(inputField.text == " Menu ")
+        if(inputField.text == "Menu")
         {
             SceneManager.LoadScene("Menu");
         }

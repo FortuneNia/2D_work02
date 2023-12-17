@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AutoChangescene : MonoBehaviour
+public class AutoSecene : MonoBehaviour
 {
-    public string scenename;
+    public string sceneName;
     public float time;
     // Start is called before the first frame update
     void Start()
     {
         Invoke("LoadScene", time);
     }
-    public void LoadScee(string scenename)
+    public void LoadScene()
     {
-       SceneManager.LoadScene(scenename);
+        SceneManager.LoadScene(sceneName);
     }
 }
