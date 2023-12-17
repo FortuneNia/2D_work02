@@ -321,8 +321,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99e3f1d3199b73a4c836c43fd8d31d30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenename: 
-  time: 0
+  sceneName: Splash Screen
+  time: 2
 --- !u!1 &1359819065
 GameObject:
   m_ObjectHideFlags: 0
