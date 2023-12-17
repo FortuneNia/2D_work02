@@ -1,18 +1,14 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;//ห้ามลืม
 
 public class ChangeScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string scenename;
+    public void LoadScene(string scenename)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("sceneNae to load: " + scenename);
+        SceneManager.LoadScene(scenename);
     }
 }
